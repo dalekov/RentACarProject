@@ -27,7 +27,7 @@ def admin_menu():
     print("3. Return to main menu")
     return input("Please choose an option (1-3): ")
 
-
+initialize_cars()
 def main_menu():
     while True:
         choice = display_menu()
