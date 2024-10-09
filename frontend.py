@@ -30,6 +30,8 @@ def admin_menu():
     return input("Please choose an option (1-3): ")
 
 
+cars = initialize_cars()
+
 def main():
     choice = display_menu()
     pass
